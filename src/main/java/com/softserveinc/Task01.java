@@ -118,7 +118,7 @@ public class Task01 {
                 break;
         }
         System.out.println("Average annual temperature: " + average + "\n" +
-        "Month with the lowest temperature in a year:  " +minMonthR + "\n" +
+        "Month with the lowest temperature in a year: " +minMonthR + "\n" +
                 "The month with the highest temperatures in a year: " + maxMonthR);
         }
     }
