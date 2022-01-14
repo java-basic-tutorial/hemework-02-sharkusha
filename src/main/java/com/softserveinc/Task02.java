@@ -43,8 +43,8 @@ public class Task02 {
                 "C       F\n" +
                 "-----------------\n");
 
-        for (double i = t1; i <= t2 ; i=i+dt) {
-        double f = (double) 9/5*i+32;
+        for (double i = t1; i <= t2; i = i + dt) {
+            double f = (double) 9 / 5 * i + 32;
             System.out.printf("%.2f    %.2f\n", i, f);
         }
         System.out.println("-----------------");
