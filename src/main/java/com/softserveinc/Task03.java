@@ -23,6 +23,53 @@ public class Task03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // TODO: Write your code here
-
+        int min = Integer.MAX_VALUE;
+//        System.out.println("Enter the number after symbol >>>. To exit enter a zero.");
+        int num;
+        do {
+            System.out.print(">>> ");
+            num = scanner.nextInt();
+            if (num <=0) {
+                break;
+            }
+            if (num < min) {
+                min = num;
+            }
+        } while (true);
+        System.out.println("Minimum number is " + min);
     }
 }
+
+
+
+
+
+
+
+
+
+
+//        Example with average:
+
+//        System.out.print("Enter the number after symbol >>>. To exit enter a zero.\n");
+//
+//        int count = 0;
+//        int sum = 0;
+//        int num = 0;
+//        do {
+//            System.out.print(">>> ");
+//            num = scanner.nextInt();
+//
+//            if (num == 0) break;
+//
+//            count++;
+//            sum = sum + num;
+//        }
+//        while (true);
+//
+//        double average = (double) sum / count;
+//        System.out.printf("Average = %.2f", average);
+//
+//    }
+//}
+
